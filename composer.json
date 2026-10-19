@@ -1,0 +1,15 @@
+{
+    "name": "guavas/guavas",
+    "description": "Kerangka proyek aplikasi Guavas",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^8.2",
+        "ext-openssl": "*"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php scripts/setup.php"
+        ]
+    }
+}

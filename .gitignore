@@ -1,0 +1,8 @@
+/vendor/
+/composer.lock
+/core/system/libs/*.gv
+/storage/*
+!/storage/.gitkeep
+/app/config/local.php
+/app/config/connection.php
+.DS_Store
